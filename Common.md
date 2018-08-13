@@ -1,4 +1,6 @@
-Centos
+Centos 镜像源 
+
+修改软件源为国内加速镜像
 1. 备份原文件
 2. 下载新的Centos-Base.repo 到 /etc/yum.repos.d/
 3. 生成缓存
