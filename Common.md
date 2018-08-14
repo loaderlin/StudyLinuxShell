@@ -12,3 +12,7 @@ wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-
 yum makecache
 ```
 
+NPM
+
+npm install -g cnpm -registry=https://registry.npm.taobao.org
+
