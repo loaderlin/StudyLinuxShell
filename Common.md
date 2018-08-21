@@ -37,3 +37,13 @@ npm install -g cnpm -registry=https://registry.npm.taobao.org
     "editor.fontSize": 16
 }
 ```
+
+## ShadowsocksR
+
+部署Shadowsocks服务器时，注意配置防火墙开放端口访问
+
+```sh
+service iptables status
+/sbin/iptables -I INPUT -p tcp --dport 1099 -j ACCEPT
+service iptables save
+```
