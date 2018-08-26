@@ -18,6 +18,7 @@ npm install -g cnpm -registry=https://registry.npm.taobao.org
 
 ## Visual Studio Code
 
+用户设置
 ```json
 {
     "[ruby]":{
@@ -36,6 +37,47 @@ npm install -g cnpm -registry=https://registry.npm.taobao.org
     "git.ignoreMissingGitWarning": true,
     "editor.fontSize": 16
 }
+```
+
+快捷键设置
+```json
+// 将键绑定放入此文件中以覆盖默认值
+[
+    {
+        // "key": "ctrl+shift+alt+up",
+        "key": "shift+alt+up",
+        "command": "cursorColumnSelectUp",
+        "when": "editorTextFocus"
+    },
+    {
+        // "key": "ctrl+shift+alt+down",
+        "key": "shift+alt+down",
+        "command": "cursorColumnSelectDown",
+        "when": "editorTextFocus"
+    },
+    {
+        // "key": "ctrl+r",
+        "key": "ctrl+alt+o",
+        "command": "workbench.action.openRecent"
+    },
+    {
+        // "key": "ctrl+shift+o",
+        "key": "ctrl+r",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        // "key": "shift+alt+down",
+        "key": "ctrl+shift+d",
+        "command": "editor.action.copyLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        // "key": "shift+alt+up",
+        "key": "ctrl+shift+alt+up",
+        "command": "editor.action.copyLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+]
 ```
 
 ## ShadowsocksR
