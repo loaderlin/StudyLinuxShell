@@ -54,3 +54,22 @@ chown mail:mail log || chown mail: log
 只修改拥有群组
 chown :mail log
 ```
+
+## /etc/group 文件详解
+
+系统管理员对用户和用户组管理时相关的文件
+- /etc/group
+- /etc/passwd
+- /etc/shadow
+
+用户组（Group）配置文件主要有
+- /etc/group
+- /etc/gshadow
+
+*/etc/gshadow是/etc/group的加密信息文件*
+
+用户组的所有信息都存放在/etc/group文件中。此文件的格式是由冒号(:)隔开若干个字段。
+
+组名:口令:组标识号:组内用户列表
+
+口令字段存放的是用户组加密后的口令字。一般Linux系统的用户组都没有口令，即这个字段一般为空，或者是*。
