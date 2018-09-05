@@ -14,3 +14,8 @@ echo -e "\033[41;37m --> Install Python36u devel  \033[0m"
 sudo yum -y install python36u-devel
 echo -e "\033[41;37m --> Install Python36u-Pip  \033[0m"
 sudo yum -y install python36u-pip
+echo -e "\033[41;37m --> Install Bind-utils(include Nslookup Dig)  \033[0m"
+sudo yum -y install bind-utils
+echo -e "\033[41;37m --> Install Telnet Telnet-Server  \033[0m"
+sudo yum -y install telnet telnet-server
+
