@@ -18,4 +18,6 @@ echo -e "\033[41;37m --> Install Bind-utils(include Nslookup Dig)  \033[0m"
 sudo yum -y install bind-utils
 echo -e "\033[41;37m --> Install Telnet Telnet-Server  \033[0m"
 sudo yum -y install telnet telnet-server
+echo -e "\033[41;37m --> Install Telnet atd  \033[0m"
+sudo yum -y install at
 
