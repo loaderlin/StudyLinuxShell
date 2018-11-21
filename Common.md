@@ -89,3 +89,8 @@ service iptables status
 /sbin/iptables -I INPUT -p tcp --dport 1099 -j ACCEPT
 service iptables save
 ```
+Linux上防火墙的配置文件
+
+```sh
+vim /etc/sysconfig/iptables
+```
