@@ -18,3 +18,17 @@
 [监控网络命令](https://github.com/loaderlin/StudyLinuxShell/blob/shell-commands/%E7%BD%91%E7%BB%9C%E5%91%BD%E4%BB%A4.md)
 
 [其他命令](https://github.com/loaderlin/StudyLinuxShell/blob/shell-commands/%E5%85%B6%E4%BB%96%E5%91%BD%E4%BB%A4.md)
+
+## 安装Linux
+
+给公司主机安装Centos 7 
+
+[镜像源](https://mirrors.aliyun.com/centos/7/isos/x86_64/)
+
+使用UltraISO 写入U盘 MBR
+
+[Centos7 U盘安装遇到的坑以及靠谱解决方法](https://blog.csdn.net/c_cpp_csharp/article/details/80464690)
+
+设置静态IP(手动设置IP)
+
+[Centos 7 学习之静态IP设置](https://blog.csdn.net/johnnycode/article/details/40624403)
